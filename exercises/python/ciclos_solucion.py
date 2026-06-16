@@ -1,0 +1,5 @@
+# Solución: ciclos (suma de primeros N pares)
+N = int(input("Ingresa N (cantidad de pares a sumar): "))
+# Fórmula: suma de primeros N pares = N*(N+1)
+suma = N * (N + 1)
+print(f"(Fórmula) La suma de los primeros {N} números pares es: {suma}")
